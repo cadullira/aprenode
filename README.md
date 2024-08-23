@@ -1,6 +1,5 @@
-
 # Aprenode
-
+![Imagem Aprenode](https://github.com/cadullira/aprenode/blob/main/img/aprenode.webp)
 > O Nodejs é um ambiente de execução usando o javascript/typescript fora do navegador, promovendo assim, a possibilidade de usar a linguagem javascript para programar backends.
 
 
