@@ -34,6 +34,12 @@ Se classificarmos como "oficial", podemos apontar o **nvm** como o gerenciador d
 
 - **Visualizar versão atual:**
   `asdf current nodejs` ou `node -v`
+
+## NPM: Agora são pacotes
+
+    npm init
+
+No comando acima estou criando um novo projeto **Node.js**, a partir daí posso usar pacotes já existentes, criado por terceiros, em meu projeto. Pacotes são pequenas dependências que podemos adicionar (instalar), que tem por objetivo entragar soluções prontas para que não precisemos reinventar a roda.
    
 
 
