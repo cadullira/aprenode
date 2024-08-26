@@ -5,7 +5,7 @@ let idade: number;
 let brasileiro: boolean;
 let enderecos: string[];
 
-nome = 'Cadu';
+nome = 'Miguel';
 sobrenome = 'Llira';
 nomeCompleto = nome + ' ' + sobrenome;
 idade = 32;
