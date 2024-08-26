@@ -9,3 +9,15 @@
 `npx tsc --version` -> verifica a versão do **TypeScript**, caso não exista, o npx vai baixar a última versão do TypeScript e fazer uso, após isso eliminará até que seja invocado novamente.
 
 `npx tsc --init` -> inicializa um novo projeto **TypeScript**, criando um arquivo tsconfig.json.
+
+`npx tsc index.ts` -> transpila o código **TypeScript** para **JavaScript**
+
+`node index.js` -> o código .ts é agora .js, o comando vai mostrar o que se pede pelas linhas de código.
+
+`tsconfig.json` -> realização de algumas configurações nesse arquivo para melhorar o processo de traspilação
+
+```typescript
+"target": "ES2023", # indica versão EcmaScript ES usada
+"rootDirs": ["src"], # localização código onde passará 
+pelo processo de transpilação
+"outDir": "./dist", # saída código .js
