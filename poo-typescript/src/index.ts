@@ -1,26 +1,12 @@
-let nome: string;
-let sobrenome: string;
-let nomeCompleto: string;
-let idade: number;
-let brasileiro: boolean;
-let enderecos: string[];
+import { Pessoa } from "./pessoa";
 
-nome = 'Miguel';
-sobrenome = 'Llira';
-nomeCompleto = nome + ' ' + sobrenome;
-idade = 32;
-brasileiro = true;
-enderecos = ['Rua A, Lavras da Mangabeira', 'Rua B, Aurora'];
+// instanciando um objeto ou n objetos
+const cadu: Pessoa = new Pessoa('Cadu', 'Lira', 32, true, ['Sítio Curralinho']);
 
-let exibirNomeCompleto = function(): string {
-    return (`O nome completo do cidadão: ${nomeCompleto}`);
-}
+console.log(cadu);
+console.log(cadu.exibirNomeCompleto());
+console.log(cadu.recuperarEndereco(0));
 
-let recuperarEndereco = function(posicao: number): string {
-    return enderecos[posicao];
-}
 
-console.log(exibirNomeCompleto());
-console.log(recuperarEndereco(1))
 
 
