@@ -21,3 +21,11 @@
 "rootDirs": ["src"], # localização código onde passará 
 pelo processo de transpilação
 "outDir": "./dist", # saída código .js
+
+### De Instância e Estático
+
+Instância: tanto atributos quanto métodos são acessados a partir da instância de um objeto.
+ex.: carro1.cor, carro1.velocidadeMaxima()
+
+Estático: atributos e métodos que podem está disponível a partir do uso da palavra reservada static.
+ex.: static cor: string, static velocidadeMaxima(): number {return `Velocidade máxima: ${this.velocidade}`}, Carro.cor, Carro.velocidadeMaxima().
